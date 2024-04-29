@@ -20,7 +20,7 @@ export const NavBar = () => {
         setActiveLink(value);
     }
 
-    return (
+    return ( // Upper navigation bar section with buttons to move between the portfolio sections
         <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
             <Container>
                 <Navbar.Brand href="#home">Logo</Navbar.Brand>
@@ -33,7 +33,7 @@ export const NavBar = () => {
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
-                        <a href="#"><img src={} alt="" /></a>
+                        <a href="#"><img src={} alt="" /></a> 
                         <a href="#"><img src={} alt="" /></a>
                         <a href="#"><img src={} alt="" /></a>
                     </div>

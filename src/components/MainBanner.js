@@ -2,8 +2,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 
 export const MainBanner = () => {
-    return(
-        <section className="banner" id="home">
+    return( // Main banner section for introduction message for the webpage
+        <section className="banner" id="home"> 
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
