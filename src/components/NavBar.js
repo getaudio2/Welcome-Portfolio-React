@@ -32,9 +32,9 @@ const NavBar = () => {
                     <Nav.Link href="#projects" className={activeLink === "projects" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("projects`")}>Projects</Nav.Link>
                 </Nav>
                 <span className="navbar-text">
-                    <div className="social-icon">
-                    </div>
+                    Texto de prueba
                 </span>
+                <br/>
                 <button className="vvd" onClick={() => console.log('connect')}>
                     <span>Let's connect</span>
                 </button>
