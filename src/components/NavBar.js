@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import {Navbar, Nav, Container} from "react-bootstrap";
 
-export const NavBar = () => {
+const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
 
@@ -33,9 +33,6 @@ export const NavBar = () => {
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
-                        <a href="#"><img src={} alt="" /></a> 
-                        <a href="#"><img src={} alt="" /></a>
-                        <a href="#"><img src={} alt="" /></a>
                     </div>
                 </span>
                 <button className="vvd" onClick={() => console.log('connect')}>
@@ -46,3 +43,5 @@ export const NavBar = () => {
         </Navbar>
     )
 }
+
+export default NavBar
