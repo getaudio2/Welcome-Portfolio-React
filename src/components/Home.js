@@ -10,8 +10,8 @@ const Home = () => {
             <h5 className="text-light">Software Developer</h5>
         </div>
         <div className="cv">
-            <a href={CV} download>Download CV</a>
-            <a href="#contact">Let's Connect</a>
+            <a href={CV} download className="btn">Download CV</a>
+            <a href="#contact" className="btn btn-primary">Let's Connect</a>
         </div>
     </section>
   )
