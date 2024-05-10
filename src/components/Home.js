@@ -1,10 +1,12 @@
 import React from 'react'
 import './Home.css'
 import CV from '../assets/CV Paúl Maigua S_v03.pdf'
+import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 
 const Home = () => {
   return (
-    <section className="banner" id="home">
+    <header>
         <div className="container header_container">
             <h5>Hello I'm Paúl Maigua</h5>
             <h5 className="text-light">Software Developer</h5>
@@ -13,7 +15,11 @@ const Home = () => {
             <a href={CV} download className="btn">Download CV</a>
             <a href="#contact" className="btn btn-primary">Let's Connect</a>
         </div>
-    </section>
+        <div className="header__socials">
+          <a href="https://www.linkedin.com/in/paúl-gerard-maigua-sarango-342896206/" target="_blank"><FaLinkedin /></a>
+          <a href="https://github.com/getaudio2" target="_blank"><FaGithub /></a>
+        </div>
+    </header>
   )
 }
 
