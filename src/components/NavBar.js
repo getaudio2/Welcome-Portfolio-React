@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react";
-import {Navbar, Nav, Container} from "react-bootstrap";
+/*import { useState, useEffect } from "react";
+import {Navbar, Nav, Container} from "react-bootstrap";*/
 
 const NavBar = () => {
-    const [activeLink, setActiveLink] = useState('home');
+    /*const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
@@ -18,10 +18,10 @@ const NavBar = () => {
 
     const onUpdateActiveLink = (value) => { // Updates the section that the user is currently in
         setActiveLink(value);
-    }
+    }*/
 
     return ( // Upper navigation bar section with buttons to move between the portfolio sections
-        <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
+        /*<Navbar expand="lg" className={scrolled ? "scrolled": ""}>
             <Container>
                 <Navbar.Brand href="#home">Logo</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -40,7 +40,15 @@ const NavBar = () => {
                 </button>
                 </Navbar.Collapse>
             </Container>
-        </Navbar>
+        </Navbar>*/
+        <header>
+            <h3>Logo</h3>
+            <nav>
+                <a href="/#">Home</a>
+                <a href="/#">Skills</a>
+                <a href="/#">Projects</a>
+            </nav>
+        </header>
     )
 }
 
