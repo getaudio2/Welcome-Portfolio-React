@@ -1,0 +1,6 @@
+.profile__container {
+    display: grid;
+    grid-template-columns: 10% 70%;
+    gap: 10%;
+    padding-left: 0rem;
+}
