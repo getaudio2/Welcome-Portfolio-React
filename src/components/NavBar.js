@@ -1,5 +1,6 @@
 /*import { useState, useEffect } from "react";
 import {Navbar, Nav, Container} from "react-bootstrap";*/
+import './NavBar.css'
 
 const NavBar = () => {
     /*const [activeLink, setActiveLink] = useState('home');
@@ -41,14 +42,13 @@ const NavBar = () => {
                 </Navbar.Collapse>
             </Container>
         </Navbar>*/
-        <header>
-            <h3>Logo</h3>
-            <nav>
-                <a href="/#">Home</a>
-                <a href="/#">Skills</a>
-                <a href="/#">Projects</a>
-            </nav>
-        </header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#profile">Profile</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     )
 }
 
