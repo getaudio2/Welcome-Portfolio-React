@@ -10,8 +10,9 @@ nav {
     bottom: 2rem;
     display: flex;
     gap: 0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
+    border-radius: 0.8rem;
+    border: 1px solid #fff;
+    backdrop-filter: blur(15px); /* makes the navbar semitransparent with blur effect */
 }
 
 nav a {
@@ -19,4 +20,13 @@ nav a {
     padding: 0.5rem;
     margin: 0 2rem;
     text-decoration: none;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+    background: var(--color-bg);
+    color: var(--color-white);
 }

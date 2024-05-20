@@ -43,7 +43,7 @@ const NavBar = () => {
             </Container>
         </Navbar>*/
         <nav>
-            <a href="#">Home</a>
+            <a href="#" className='active'>Home</a>
             <a href="#profile">Profile</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
