@@ -31,6 +31,11 @@
     gap: 2rem;
 }
 
+.skills__details {
+    display: flex;
+    gap: 1rem;
+}
+
 .languages {
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
@@ -55,4 +60,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.languages__details {
+    display: flex;
+    gap: 1rem;
 }

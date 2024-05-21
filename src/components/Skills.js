@@ -12,20 +12,28 @@ const Skills = () => {
         <h3>Frontend Development</h3>
           <div className='skills__content'>
             <article className='skills__details'>
-              <h4>HTML</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
             <article className='skills__details'>
-              <h4>CSS</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>CSS</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
             <article className='skills__details'>
-              <h4>JavaScript</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>JavaScript</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
             <article className='skills__details'>
-              <h4>React</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>React</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
           </div>
         </div>
@@ -33,20 +41,28 @@ const Skills = () => {
         <h3>Backend Development</h3>
           <div className='skills__content'>
             <article className='skills__details'>
-              <h4>Java Spring</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>Java Spring</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
             <article className='skills__details'>
-              <h4>MySQL</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>MySQL</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
             <article className='skills__details'>
-              <h4>Python OpenCV</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>Python OpenCV</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
             <article className='skills__details'>
-              <h4>C# ASP .NET Core</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>C# ASP .NET Core</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
           </div>
         </div>
@@ -56,16 +72,22 @@ const Skills = () => {
         <h3>Languages</h3>
           <div className='languages__content'>
             <article className='languages__details'>
-              <h4>Spanish</h4>
-              <small className='text-light'>Native</small>
+              <div>
+                <h4>Spanish</h4>
+                <small className='text-light'>Native</small>
+              </div>
             </article>
             <article className='languages__details'>
-              <h4>Catalan</h4>
-              <small className='text-light'>Native</small>
+              <div>
+                <h4>Catalan</h4>
+                <small className='text-light'>Native</small>
+              </div>
             </article>
             <article className='languages__details'>
-              <h4>English</h4>
-              <small className='text-light'>Advanced</small>
+              <div>
+                <h4>English</h4>
+                <small className='text-light'>Advanced</small>
+              </div>
             </article>
           </div>
         </div>
