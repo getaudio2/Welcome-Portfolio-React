@@ -11,11 +11,13 @@ const Projects = () => {
       <div className='container portfolio__container'>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" width={100} height={100}></img>
+            <div className='image-div' color='red'></div>
           </div>
           <h3>Portfolio item title</h3>
-          <a href="https://github.com" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className='portfolio__item-cta'>
+            <a href="https://github.com" className='btn' target='_blank'>Github</a>
+            <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
       </div>
     </section>
