@@ -4,3 +4,28 @@
     gap: 10%;
     padding-left: 0rem;
 }
+.profile-image > img {
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 1024px) {
+    .profile__container {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-image {
+        width: 30%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .profile__container {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-image {
+        width: 30%;
+        
+    }
+}
